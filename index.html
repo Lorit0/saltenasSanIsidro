@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="shortcut icon" type="image/png" href="img/salte.svg" />
+
+        <title>Salteñas San Isidro</title>
+    </head>
+
+    <body>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#comunidad" class="navigation__link"
+                            >Acerca de nosotros</a
+                        >
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#productos" class="navigation__link"
+                            >Nuestros Productos</a
+                        >
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#aportes" class="navigation__link">Nuestros Aportes</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <header class="header">
+            <div class="header__logo-box">
+                <img src="img/salte.svg" alt="Logo" class="header__logo" />
+            </div>
+
+            <div class="header__text-box">
+                <h1 class="heading-primary">
+                    <!-- cambiar titulo -->
+                    <span class="heading-primary--main">salteñas</span>
+                    <span class="heading-primary--sub">san isidro</span>
+                </h1>
+
+                <a href="#section-tours" class="btn btn--white btn--animated"
+                    >Nuestros productos</a
+                >
+            </div>
+        </header>
+
+        <main>
+            <section class="section-about">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 id="comunidad" class="heading-secondary">
+                        Salteñas elaboradas en San Isidro
+                    </h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <h3 class="heading-tertiary u-margin-bottom-small">
+                            Salteñas San Isidro
+                        </h3>
+                        <p class="paragraph">
+                            En la comunidad de San Isidro, Yacuiba, te ofrecemos salteñas
+                            artesanales elaboradas con ingredientes frescos, sabrosos y
+                            cuidadosamente seleccionados. Nuestra receta combina tradición
+                            y calidad, dando como resultado un producto jugoso, nutritivo
+                            y lleno de sabor. Cada salteña es preparada con dedicación y
+                            bajo estrictas normas de higiene, para que disfrutes con total
+                            confianza.
+                        </p>
+
+                        <h3 class="heading-tertiary u-margin-bottom-small">
+                            Productos hechos con amor
+                        </h3>
+                        <p class="paragraph">
+                            Contamos con variedades de carne, pollo y mixtas, todas con su
+                            inconfundible masa ligeramente dulce y rellenos generosos que
+                            incluyen papa, huevo, arvejas y aceituna. Ya sea que prefieras
+                            algo suave o con un toque picante, nuestras salteñas son
+                            ideales para acompañar tus mañanas, reuniones o cualquier
+                            momento del día. ¡Probá el sabor casero que nos representa!
+                        </p>
+                    </div>
+                    <div class="col-1-of-2">
+                        <div class="composition">
+                            <img
+                                srcset="img/s1.jpg 300w, img/s1.jpg 1000w"
+                                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                alt="Photo 1"
+                                class="composition__photo composition__photo--p1"
+                                src="img/s1.jpg"
+                            />
+
+                            <img
+                                srcset="img/s4.webp 300w, img/s4.webp 1000w"
+                                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                alt="Photo 3"
+                                class="composition__photo composition__photo--p3"
+                                src="img/s4.webp"
+                            />
+                            <img
+                                srcset="img/si1.jpg 300w, img/si1.jpg 1000w"
+                                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                alt="Photo 2"
+                                class="composition__photo composition__photo--p2"
+                                src="img/si1.jpg"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-features">
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                Envios a todo Yacuiba
+                            </h3>
+                            <p class="feature-box__text">
+                                Recibimos pedidos y envios en todo Yacuiba
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-compass"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                San Isidro
+                            </h3>
+                            <p class="feature-box__text">
+                                Estamos ubicados en San Isidro - Yacuiba
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-map"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                Productos del productor al consumidor
+                            </h3>
+                            <p class="feature-box__text">
+                                Ofrecemos salteñas al mejor precio del mercado
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-heart"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                Productos hechos con amor
+                            </h3>
+                            <p class="feature-box__text">
+                                Ofrecemos productos elaborados con la mayor higiene,
+                                cuidando cada detalle desde la selección de ingredientes
+                                hasta la entrega, porque tu salud y satisfacción son
+                                nuestra prioridad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-tours" id="section-tours">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 id="productos" class="heading-secondary">Nuestros Productos</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--1">&nbsp;</div>
+                                <h4 class="card__heading">
+                                    <!-- cambiar tarjeta -->
+                                    <span class="card__heading-span card__heading-span--1"
+                                        >Salteña de Carne</span
+                                    >
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Relleno jugoso</li>
+                                        <li>Carne bien cocida y sazonada</li>
+                                        <li>Masa ligeramente dulce y dorada</li>
+                                        <li>Toque picante (opcional)</li>
+                                        <li>Salsas a tu disposiciòn</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-1">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">Solo</p>
+                                        <!-- cambiar precio -->
+                                        <p class="card__price-value">Bs. 2.5</p>
+                                    </div>
+                                    <a href="#popup" class="btn btn--white"
+                                        >contáctanos</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--2">&nbsp;</div>
+                                <h4 class="card__heading">
+                                    <!-- cambiar tarjeta -->
+                                    <span class="card__heading-span card__heading-span--2"
+                                        >Salteña de pollo</span
+                                    >
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Relleno jugoso y bien condimentado</li>
+                                        <li>Pollo tierno y sabroso</li>
+                                        <li>Masa suave y ligeramente dulce</li>
+                                        <li>Cierre trenzado tradicional</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-2">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">Solo</p>
+                                        <!-- cambiar precio -->
+                                        <p class="card__price-value">Bs. 2.5</p>
+                                    </div>
+                                    <a href="#popup" class="btn btn--white"
+                                        >contáctanos</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--3">&nbsp;</div>
+                                <h4 class="card__heading">
+                                    <!-- cambiar tarjeta -->
+                                    <span class="card__heading-span card__heading-span--3"
+                                        >Salteña mixta</span
+                                    >
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Relleno combinado y jugoso</li>
+                                        <li>Doble proteína bien sazonada</li>
+                                        <li>Masa dorada y ligeramente dulce</li>
+
+                                        <li>Presentación tradicional con repulgue</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-3">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">Solo</p>
+                                        <!-- cambiar precio -->
+                                        <p class="card__price-value">Bs. 2.5</p>
+                                    </div>
+                                    <a href="#popup" class="btn btn--white"
+                                        >contáctanos</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="u-center-text u-margin-top-huge">
+                    <!-- cambiar número celular -->
+                    <a
+                        href="https://wa.me/+59172956911"
+                        target="_blank"
+                        class="btn btn--green"
+                        >Contactar</a
+                    >
+                </div>
+            </section>
+
+            <section class="section-stories">
+                <div class="bg-video">
+                    <video class="bg-video__content" autoplay muted loop>
+                        <source src="img/yacuiba.mp4" type="video/mp4" />
+                        <source src="img/yacuiba.webm" type="video/webm" />
+                        Tu navegador no soporta!!
+                    </video>
+                </div>
+
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 id="aportes" class="heading-secondary">Nuestros aportes</h2>
+                </div>
+
+                <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img
+                                src="img/s1.jpg"
+                                alt="Person on a tour"
+                                class="story__img"
+                            />
+                            <figcaption class="story__caption">Compromiso</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                Compromiso con la Comunidad
+                            </h3>
+                            <p>
+                                Nos esforzamos por aportar a nuestra comunidad ofreciendo
+                                un alimento delicioso, accesible, preparado con dedicación
+                                y mucho cariño. Creemos en el valor de apoyar a las
+                                familias yacuibeñas con un producto que combina sabor,
+                                calidad y un precio justo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img
+                                src="img/s2.jpg"
+                                alt="Person on a tour"
+                                class="story__img"
+                            />
+                            <figcaption class="story__caption">Producción</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                Proceso de Producción
+                            </h3>
+                            <p>
+                                Cada salteña es elaborada siguiendo un proceso artesanal
+                                que garantiza higiene, frescura y sabor. Utilizamos
+                                ingredientes seleccionados cuidadosamente, manteniendo
+                                altos estándares en cada etapa de la preparación.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img
+                                src="img/s3.jpeg"
+                                alt="Person on a tour"
+                                class="story__img"
+                            />
+                            <figcaption class="story__caption">Económico</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                Productos Económicos
+                            </h3>
+                            <p>
+                                Ofrecemos salteñas a precios accesibles, porque creemos
+                                que disfrutar de un buen producto no debe ser un lujo.
+                                Nuestra meta es brindar calidad sin afectar el bolsillo de
+                                nuestros clientes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-book">
+                <div class="row">
+                    <div class="book">
+                        <div class="book__form">
+                            <div class="u-margin-bottom-medium">
+                                <h2 class="heading-secondary">Ubicación</h2>
+                            </div>
+                            <div class="iframe-container">
+                                <iframe
+                                    style="border: 0"
+                                    loading="lazy"
+                                    allowfullscreen
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    src="https://www.google.com/maps?q=-21.983659,-63.664040&z=18&output=embed"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <picture class="footer__logo">
+                    <source
+                        srcset="./img/salte2.png 1x,./ img/salte2.png 2x"
+                        media="(max-width: 0.5em)"
+                    />
+                    <img
+                        srcset="./img/salte2.png 1x,./ img/salte2.png 2x"
+                        alt="Full logo"
+                        src="img/salte.svg"
+                    />
+                </picture>
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <a href="#" class="footer__link">Colegio San Isidro</a
+                            >. Copyright &copy; San Isidro
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        Realizado por:
+                        <a href="#" class="footer__link">San Isidro</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/s5.webp" alt="Tour photo" class="popup__img" />
+                    <img src="img/s4.webp" alt="Tour photo" class="popup__img" />
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">contáctanos</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        Colegio &ndash; San Isidro
+                    </h3>
+                    <p class="popup__text">
+                        Ubicados en la comunidad de San Isidro, Yacuiba, ofrecemos
+                        salteñas caseras elaboradas con dedicación, sabor y tradición.
+                        Nuestro emprendimiento nace con el objetivo de brindar a la
+                        población una opción deliciosa, económica y confiable para
+                        disfrutar de uno de los sabores más representativos de nuestra
+                        cultura. Nos comprometemos con nuestra comunidad al utilizar
+                        ingredientes frescos y apoyar la economía local. Cada salteña es
+                        preparada con altos estándares de higiene y un proceso artesanal
+                        que garantiza calidad en cada bocado. Además, entendemos la
+                        importancia de ofrecer precios accesibles, por eso nuestras
+                        salteñas son ideales para cualquier ocasión, sin afectar el
+                        bolsillo de nuestros clientes. ¡Ven y prueba nuestras salteñas!
+                        Sabores auténticos, precios justos y atención con cariño, desde
+                        San Isidro para toda Yacuiba.
+                    </p>
+                    <a
+                        href="https://wa.me/+59172956911"
+                        target="_blank"
+                        class="btn btn--green"
+                        >Contactar</a
+                    >
+                </div>
+            </div>
+        </div>
+        <!-- Botón flotante de WhatsApp -->
+        <a href="https://wa.me/+59172956911" class="whatsapp_float" target="_blank">
+            <img src="./img/social.png" alt="WhatsApp" class="whatsapp_icon" />
+        </a>
+    </body>
+</html>
